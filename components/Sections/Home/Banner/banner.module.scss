@@ -1,0 +1,35 @@
+.wrapper {
+    background-image: url('/assets/img/banner.jpg');
+    background-size: cover;
+    z-index: 3;
+    .content {
+        position: absolute;
+        width: 35%;
+        left: 10%;
+        top: 50%;
+        transform: translate3d(0, -50%, 0);
+        h1 {
+            font-size: 3rem;
+            span {
+                font-weight: 300;
+            }
+        }
+        p {
+            &:first-of-type {
+                font-size: 1.5rem;
+                width: 60%;
+            }
+            
+        }
+    }
+    .price {
+        width: 50%;
+        padding-top: 10vh;
+        display: flex;
+        align-items: center;
+        p {
+            font-size: 2rem;
+            font-weight: 800;
+        }
+    }
+}

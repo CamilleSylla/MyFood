@@ -1,0 +1,15 @@
+.wrapper {
+    background: black;
+    border-radius: 50px;
+    padding:1vh 2vw 1vh 2vw ;
+    color: white;
+    border: 2px solid black;
+    margin-top: 5vh;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all ease .5s;
+    &:hover {
+        background: white;
+        color: black;
+    }
+}

@@ -1,0 +1,25 @@
+.wrapper {
+    padding: 1vh 0 1vh 0;
+    width: 8vw;
+    background: black;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    transition: all ease .5s;
+    cursor: pointer;
+    border: 2px solid black;
+    p {
+        font-size: .5rem;
+        font-weight: 500;
+    }
+    img {
+        filter: invert(1);
+    }
+    &:hover {
+        border: 2px solid black;
+        background: white;
+        img {
+            filter: invert(0);
+        }
+    }
+}
