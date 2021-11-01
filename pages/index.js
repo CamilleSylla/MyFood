@@ -3,6 +3,7 @@ import Image from 'next/image'
 import About from '../components/Sections/Home/About/About'
 import Banner from '../components/Sections/Home/Banner/Banner'
 import Delivery from '../components/Sections/Home/Delivery/Delivery'
+import Menu from '../components/Sections/Home/Menus/Menu'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Banner/>
        <About/>
        <Delivery/>
+       <Menu/>
       </main>
 
     </div>
