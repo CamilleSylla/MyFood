@@ -48,22 +48,30 @@ export default function Menu() {
       },
   ]
 
+  const Couvert = () => {
+    return <img src="/assets/img/couverts.png" className={style.couverts}/>
+  }
+
 
   const Card = ({data, key}) => {
 
     return (
         <article key={key} className={style.card}>
             <img src={data.img}/>
+          <div className={style.content_wrapper}>
             <h1>{data.name}</h1>
             <h2> {data.price} </h2>
             <p> {data.para} </p>
             {/* <BuyBtn/> */}
+            </div>
         </article>
     )
   } 
   return (
-    <section className={style.wrapper}>
-      <div className={style.white_filter} />
+    <div className={style.wrapper}>
+      <div className={style.white_filter} >
+      <Couvert/>
+      </div>
       <div className={style.grey_filter} />
       <div className={style.content}>
         <div className={style.menu}>
@@ -80,6 +88,6 @@ export default function Menu() {
             })}
         </div>
       </div>
-    </section>
+    </div>
   );
 }

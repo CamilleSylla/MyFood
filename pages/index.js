@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Contact from '../components/Items/Contact/Contact'
 import About from '../components/Sections/Home/About/About'
 import Banner from '../components/Sections/Home/Banner/Banner'
 import Delivery from '../components/Sections/Home/Delivery/Delivery'
@@ -19,6 +20,7 @@ export default function Home() {
        <About/>
        <Delivery/>
        <Menu/>
+       <Contact/>
       </main>
 
     </div>

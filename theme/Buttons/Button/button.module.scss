@@ -8,6 +8,7 @@
     font-weight: 700;
     cursor: pointer;
     transition: all ease .5s;
+    align-self: flex-start;
     &:hover {
         background: white;
         color: black;
