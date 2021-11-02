@@ -29,6 +29,10 @@ export default function Contact () {
     <h3>Par mail : </h3>
     <a href="#">contact@myfood.fr</a>
 </div>
+<div className={style.split}>
+    <h3>Notre adresse : </h3>
+    <a href="#">1 rue Foch, 02100 Saint-Quentin</a>
+</div>
 <Button text="Notre équipe"/>
 </article>
         )
